@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/form.css">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="shortcut icon" href="../Pictures/webicon.png" type="image/x-icon">
+    <title>Cadastro | Unotícias</title>
+</head>
+
+<body id="login">
+    <div class="container">
+        <div class="form-image">
+            <img src="../Pictures/undraw1.png" alt="">
+        </div>
+        <div class="form">
+            <div class="logForm">
+                <form action="inicio.html">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1 class="t1">Login</h1>
+                        </div>
+                    </div>
+                    <div class="input-group grouplogin">
+                        <div class="input-box">
+                            <label for="email">E-mail</label>
+                            <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="password">Senha</label>
+                            <input id="password" type="password" name="password" placeholder="Digite sua senha"
+                                required>
+                        </div>
+                    </div>
+                    <div class="login-button grouplogin">
+                        <button>Logar</button>
+                    </div>
+                </form>
+            </div>
+            <div id="divbtnlogar" class="form-button">
+                <button id="logForm">Entrar</button>
+            </div>
+            <form class="formCad">
+                <div class="form-header">
+                    <div class="title">
+                        <h1 class="t1">Cadastre-se</h1>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Nome</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu nome" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="id">Idade</label>
+                        <input id="id" type="number" name="number" placeholder="Digite sua idade" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="confirmPassword">Confirme sua Senha</label>
+                        <input id="confirmPassword" type="password" name="confirmPassword"
+                            placeholder="Digite sua senha novamente" required>
+                    </div>
+                </div>
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Gênero</h6>
+                    </div>
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input id="female" type="radio" name="gender">
+                            <label for="female">Masculino</label>
+                        </div>
+                        <div class="gender-input">
+                            <input id="male" type="radio" name="gender">
+                            <label for="male">Feminino</label>
+                        </div>
+                        <div class="gender-input">
+                            <input id="others" type="radio" name="gender">
+                            <label for="others">Outros</label>
+                        </div>
+                        <div class="gender-input">
+                            <input id="none" type="radio" name="gender">
+                            <label for="none">Prefiro não dizer</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="continue-button">
+                    <button id="continuebtn">Continuar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Animação fundo -->
+    <div class="wrapper">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="banner">
+        <div class="content">
+        </div>
+    </div>
+    <script src="../Js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Pictures/webicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/dycalendar.css">
+    <link rel="stylesheet" href="../CSS/calendar.css">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/socialmedia.css">
+    <title>Unoticías</title>
+  </div>
+</div>
+</head>
+<body>
+  <!-- NavBar -->
+    <nav id="navbar">
+        <div class="header">
+          <img src="../Pictures/Title.png" width="500px" id="logo">
+          </div>
+        </div>
+        <div class="topnav">
+          <div>
+            <a href="../HTML/inicio.html">Notícias</a>
+            <a href="../HTML/popular.html">Destaques</a>
+            <a href="../HTML/calendar.html">Calendário</a>
+            <div class="animation start-home"></div>
+          </div>
+        </div>
+      </nav>
+      <!-- Calendário -->
+    <section>
+        <div class="box">
+            <div class="container">
+                <div id="dycalendar"></div>
+            </div>
+        </div>
+    </section>
+  <div class="banner">
+    <div class="content">
+    </div>
+  </div>
+<!-- Animação fundo -->
+</div>
+<div class="wrapper">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+<div class="banner">
+<div class="content">
+</div>
+</div>
+<!-- Footer -->
+<footer class="footer">
+  <div class="divFooterContact">
+    <img src="../Pictures/footerimg.png" id="logobaixo" class="gapImg">
+    <p>Avenida Rio Branco - Centro, Marília - SP</p>
+    <p>Marília-SP</p>
+  </div>
+  <div class="footer-col">
+    <h4>Unoticías</h4>
+    <ul>
+      <li><a href="../HTML/inicio.html">Blog de Notícias</a></li>
+      <li><a href="../HTML/popular.html">Nossos Destaques</a></li>
+      <li><a href="../HTML/calendar.html">Calendário de Eventos</a></li>
+    </ul>
+  </div>
+  <h3>Nossas Mídias Sociais</h3>
+  <div class="social-menu">
+    <ul>
+      <li><i class="fa fa-facebook"></i></a></li>
+      <li><i class="fa fa-twitter"></i></a></li>
+      <li><i class="fa fa-instagram"></i></a></li>
+      <li><i class="fa fa-youtube"></i></a></li>
+      <li><i class="fa fa-linkedin"></i></a></li>
+    </ul>
+  </div>
+</footer>
+<!-- scripts -->
+<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/26c6993670.js" crossorigin="anonymous"></script>
+    <script src="../Js/dycalendar.js"></script>
+    <script>
+        dycalendar.draw({
+            target:'#dycalendar',
+            type: 'month',
+            dayformat: 'full',
+            monthformat: 'full',
+            highlighttargetdate: true,
+            prevnextbutton: 'show'
+        })
+    </script>
+    <script src="jquery-3.6.4.min.js"></script>
+</body>
+</html> 
