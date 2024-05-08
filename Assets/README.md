@@ -1,3 +1,3 @@
 # Project - Unotícias
 
- O Unoticias é a sua fonte online de informações frescas e relevantes sobre o mundo universitário. Mantendo você atualizado com notícias, eventos e avanços em diversos campos universitários, abrangendo desde pesquisas inovadoras até aspectos da vida estudantil. Nosso compromisso é oferecer uma visão completa e atualizada do cenário acadêmico.
+Unotícias é um projeto desenvolvido como parte de um bootcamp de programação, com o tema de fornecer informações e insights sobre os cursos em destaque no mundo acadêmico, juntamente com notícias universitárias recentes. Este repositório contém o código-fonte para um site digital que destaca os cursos mais relevantes no momento e oferece atualizações sobre os acontecimentos mais recentes no cenário universitário. Os usuários podem acessar informações sobre cursos e notícias universitárias, criando uma experiência de aprendizado e informação específica para a comunidade acadêmica.
